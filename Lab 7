@@ -1,0 +1,23 @@
+@@ -0,0 +1,89 @@
+#include <iostream>
+using namespace std;
+void menu(){
+    cout << " MENU " << endl;
+    cout << "1) checkEven/Odd" << endl;
+    cout << "2) countDigits" << endl;
+    cout << "3) sumOfDigits" << endl;
+    cout << "4) checkPrime" << endl;
+    cout << "5) Exit" << endl;}
+int getNumber() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    return n;
+}
+
+void checkEvenOdd(int n) {
+    if (n % 2 == 0)
+        cout << "Even number" << endl;
+    else
+        cout << "Odd number" << endl;
+}
